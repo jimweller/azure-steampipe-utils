@@ -3,7 +3,7 @@
 # Assumes you are logged into azure (and maybe PIM'd to greater access)
 
 cat <<'EOM'
-connection "mcg_all" {
+connection "conn_all" {
   type        = "aggregator"
   plugin      = "azure"
   connections = ["*"]
